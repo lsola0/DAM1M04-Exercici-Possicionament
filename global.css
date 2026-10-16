@@ -1,0 +1,19 @@
+.alt{
+    min-height: 5px;
+    border: solid hotpink;
+    background-color: rgb(255, 146, 202);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: line;
+    margin-bottom:15px;
+
+}
+a{
+    font-size: 26px;
+    margin-top: 0;
+    color:purple;
+}
+a:hover{
+    border:solid;
+}
