@@ -24,8 +24,7 @@ a:hover{
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 70px; /* Evita que el menú fix tapi el contingut */
-    padding: 20px;
+    margin-top: 70px; 
 }
 footer {
     text-align: center;
