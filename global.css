@@ -1,0 +1,23 @@
+.div1 {
+    background-color: hotpink;
+    position: fixed;
+    display: inline;
+    margin:5px;
+    padding:1px;
+    text-align: center;
+    top: 0px;
+    width: 100dvh;
+    margin-top:10px;
+}
+.t1 {
+    color:pink;
+    margin-top: 35px;
+}
+.a {
+    color:rgb(160, 0, 35)
+}
+a:hover{
+    color:rgb(80, 8, 14);
+    text-decoration: underline;
+    border-bottom: solid;
+}
