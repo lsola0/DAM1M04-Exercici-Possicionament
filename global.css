@@ -21,14 +21,15 @@
 }
 a:hover{
     color:rgb(80, 8, 14);
-    text-decoration: underline;
-    border-bottom: solid;
+    text-decoration:dashed;
+
 }
 .container {
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 70px; 
     color:rgb(192, 41, 41);
+    text-align: center;
 }
 footer {
     text-align: center;
