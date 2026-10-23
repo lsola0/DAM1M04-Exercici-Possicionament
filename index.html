@@ -3,9 +3,90 @@
     <head>
         <meta charset="UTF-8">
         <link  rel="stylesheet" href = global.css>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
         <title>INICI</title>
+        <style>
+            .hero {
+                background-color: #fce4ec;
+                text-align: center;
+                justify-content: center;
+                padding: 30px 20px;
+                border-radius: 8px;
+                margin-bottom: 30px;
+            }
+            .hero h1 {
+                font-size: 2.5em;
+                color: rgb(160, 0, 35);
+                margin-bottom: 15px;
+            }
+            .hero p {
+                font-size: 1.2em;
+                color: #e63561;
+                margin-bottom: 25px;
+            }
+            .hero button {
+                background-color: rgb(160, 0, 35);
+                color: white;
+                border: none;
+                padding: 12px 30px;
+                font-size: 1em;
+                border-radius: 100px;
+                cursor:grab;
+            }
+            .hero button:hover {
+                background-color: rgb(241, 88, 183);
+            }
+            .collections {
+                display:flexbox;
+                margin-bottom: 40px;
+            }
+            .card {
+                background: #f7b8b8;
+                border: 1.2px solid #8d0707;
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+                justify-content: center;
+                left:10px;
+                right:10px;
+                margin:5px;
+            }
+            .card h3 {
+                font-size:26px;
+                color: rgb(224, 29, 61);
+                margin-bottom: 10px;
+            }
+            .card p {
+                color: #e43294;
+                font-size: 1em;
+                margin-bottom: 15px;
+            }
+            .card span {
+                display: inline-block;
+                background: #eee6e6;
+                padding: 4px 12px;
+                border-radius: 10px;
+                font-size: 0.8em;
+                color: #ff0000;
+                font-weight: bolder;
+                cursor: grab;
+            }
+            .benefits {
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #f0c7e0;
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+                font-weight: bold;
+                color: #d82f62;
+                margin-bottom: 40px;
+            }
+        </style>
     </head>
-    
     <body>
         <div class="div1">
             <a class="a" href="index.html">INICI |</a>
@@ -13,42 +94,44 @@
             <a class="a" href="contacte.html">CONTACTE</a>
         </div>
         <div class="container">
-            <h1 class="t1">INICI</h1>
-            <p>Benvinguts a la nostra pàgina web corporativa.</p>
+            <h1 class="t1">INICI: TOTES LES OPCIONS QUE PODEN HAVER</h1>
         </div>
-        <div>
-            <button>
-                Pàgina principal:
-                
-            </button>
-        </div>
-        Hero destacat inicial amb títol, subtítol i botó cridaner (fes servir l'element <button>).
-        Secció de col·leccions: 3 blocs informatius (cartes amb títol, paràgraf i etiquetes curtes en span).
-        Banda de beneficis: horitzontal amb Flex (p. ex.:
-        Enviament 48h · Canvis gratuïts · Pagament segur).
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
+        <div class="container">
+        <section class="hero">
+            <h1>Benvinguts a la pàgina web de roba Soaya.</h1>
+            <p>Descobreix col·leccions, escolleix la que més t'agradi!</p>
+            <p>Fes una compra totalment fàcil!</p>
+            <div class="hero">
+                <button>Som-hi!</button>
+            </div>
+        </section>
+        
+        <section class="collections">
+            <div class="card">
+                <h3>Col·lecció Home</h3>
+                <p>Catàleg casual.</p>
+                <span>Anem-hi</span>
+            </div>
+            <div class="card">
+                <h3>Col·lecció Dona</h3>
+                <p>Catàleg casual.</p>
+                <span>Anem-hi</span>
+            </div>
+            <div class="card">
+                <h3>Col·lecció Esport</h3>
+                <p>Roba per entrenar</p>
+                <span>Anem-hi</span>
+            </div>
+        </section>
+        <section class="benefits">
+            <div>Enviament 48h</div>
+            <div>Canvis gratuïts</div>
+            <div>Pagament segur</div>
+        </section>
+    </div>
     <footer>
-        <a class="a" href="malito:laylasola00@gmail.com" target="_blank">Correu de contacte</a>
+        <a class="a" href="malito:laylasola00@gmail.com" target="_blank">Correu de contacte |</a>
+        <a class="a" href="https://instagram.com" target="_blank">Instagram de la botiga</a>
     </footer>
     </body>
 </html>

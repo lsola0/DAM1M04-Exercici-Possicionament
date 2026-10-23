@@ -2,9 +2,10 @@
     background-color: hotpink;
     position: fixed;
     display: inline;
-    margin:5px;
-    padding:1px;
+    margin:auto;
+    padding:5px;
     text-align: center;
+    border-radius:20px;
     top: 0px;
     width: 100%;
     margin-top:10px;
@@ -14,7 +15,9 @@
     margin-top: 35px;
 }
 .a {
+    margin:30px;
     color:rgb(160, 0, 35)
+    
 }
 a:hover{
     color:rgb(80, 8, 14);
@@ -25,10 +28,17 @@ a:hover{
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 70px; 
+    color:rgb(192, 41, 41);
 }
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #dea2eb;
     margin-top: 40px;
+}
+* {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
