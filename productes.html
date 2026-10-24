@@ -9,42 +9,59 @@
         <title>PRODUCTES</title>
         <style>
             .targes {
-                display: flex;
+                display:inline-flex;
                 flex-wrap: wrap;
-                gap: 20px;
-                justify-content: center;
-                margin:80px;
+                gap: 5px;
+                flex-direction: row;
+                justify-content: space-around;
             }
             .card1 {
+                display: flex;
+                background: center / cover url("./deporte.jpg");
+                border: solid 1px rgb(245, 127, 199);
+                border-radius: 16px;
                 flex:1 1 260px;
-                justify-content:center;
-                width: 100%;
-                padding:50px;
-                margin:80px;
-                border-radius: 20px;
-                border:solid;
-                border-color: pink;
+                flex-direction:column;
+                margin: 16px;
+                max-width: 300px;
+                min-width: 300px;
+                overflow: hidden;
             }
             .card2 {
-                flex: 1 1 260px;
-                justify-content:center;
-                background:center;
-                width: 100%;
-                margin:80px;
-                padding:50px;
-                border:solid;
-                border-radius: 20px;
-                border-color: pink;
+                flex:1 1 260px;
+                background: center / cover url("./home.jpg");
+                border: solid 1px rgb(245, 127, 199);
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                margin: 16px;
+                max-width: 300px;
+                min-width: 300px;
+                overflow: hidden;
             }
             .card3 {
-                flex: 1 1 260px;
-                justify-content:center;
-                margin:80px;
-                background:center;
-                padding:50px;
-                border:solid;
-                border-radius: 20px;
-                border-color: pink;
+                flex:1 1 260px;
+                background: center / cover url("./dona.jpg");
+                border: solid 1px rgb(245, 127, 199);
+                border-radius: 16px;
+                display: flex;
+                flex-direction:column;
+                margin: 16px;
+                max-width: 300px;
+                min-width: 300px;
+                overflow: hidden;
+            }
+            .card4 {
+                flex:1 1 260px;
+                background: center / cover url("./dona.jpg");
+                border: solid 1px rgb(245, 127, 199);
+                border-radius: 16px;
+                display: flex;
+                flex-direction:column;
+                margin: 16px;
+                max-width: 300px;
+                min-width: 300px;
+                overflow: hidden;
             }
             h2{
                 margin-bottom: 5px;
@@ -55,7 +72,6 @@
             p {
                 text-align: center;
             }
-
         </style>
     </head>
     <body>
@@ -68,23 +84,26 @@
         <div class="container">
             <h1 class="t1">TOTS ELS PRODUCTES DISPONIBLES FINS ARA!</h1>
         </div>
-        <div class="card">
-            <div class="targes">
-                <div class="card1">
-                    <h2>ROBA D'ESPORT</h2>
-                    <img src="/esport.png">
-                    <P>35,50€</P>
-                </div>
-                <div class="card2">
-                    <h2>JAQUETA HOME</h2>
-                    <img src="/jaqueta.png">
-                    <p>23,99€</p>
-                </div>
-                <div class="card3">
-                    <h2>JAQUETA DONA</h2>
-                    <img src="/image.png">
-                    <p>23,99€</p>
-                </div>
+        <div class="targes">
+            <div class="card1">
+                <h2>ROBA D'ESPORT</h2>
+                <img src="/deporte.png">
+                <P>35,50€</P>
+            </div>
+            <div class="card2">
+                <h2>JAQUETA HOME</h2>
+                <img src="/home.png">
+                <p>23,99€</p>
+            </div>
+            <div class="card3">
+                <h2>JAQUETA DONA</h2>
+                <img src="/dona.png">
+                <p>23,99€</p>
+            </div>
+            <div class="card4">
+                <h2>PIJAMES NENS</h2>
+                <img src="./nen.png">
+                <p>15,99€</p>
             </div>
         </div>
         <footer>
